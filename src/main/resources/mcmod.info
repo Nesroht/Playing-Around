@@ -1,0 +1,19 @@
+[
+{
+"modid": "PlayingAround",
+"name": "Playing Around",
+"description": "My first mod so it's going to be a bunch of random basic stuff.",
+"version": "1.0",
+"credits": "",
+"logoFile": "",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authorList": [""],
+"parent":"",
+"requiredMods": [],
+"dependencies": [],
+"dependants": [],
+"screenshots": []
+}
+]
