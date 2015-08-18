@@ -1,32 +1,43 @@
 package com.nesroht.playingaround.configuration;
 
+import com.nesroht.playingaround.reference.Reference;
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
 
 public class ConfigurationHandler
 {
+    public static Configuration configuration;
+    public static boolean testValue = false;
+
     public static void init(File configFile)
     {
-        Configuration configuration = new Configuration(configFile);
-        boolean configValue = false;
-        try
+        // Create the configuration object from the given configuration file
+        if (configuration == null)
         {
-            //load the configuration file
-            configuration.load();
+            configuration = new Configuration(configFile);
+            loadConfiguration();
+        }
+    }
 
-            //read in properties from configuration file
-            configValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is an example config value").getBoolean(true);
-        }
-        catch (Exception e)
+    private static void loadConfiguration()
+    {
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
+
+        if (configuration.hasChanged())
         {
-            //Log the exception
-        }
-        finally
-        {
-            //Save the configuration file
             configuration.save();
         }
+    }
 
+    @SubscribeEvent
+    public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event)
+    {
+        if (event.modID.equalsIgnoreCase(Reference.MOD_ID))
+        {
+            loadConfiguration();
+        }
     }
 }

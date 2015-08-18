@@ -3,6 +3,7 @@ package com.nesroht.playingaround;
 import com.nesroht.playingaround.configuration.ConfigurationHandler;
 import com.nesroht.playingaround.proxy.IProxy;
 import com.nesroht.playingaround.reference.Reference;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -22,6 +23,7 @@ public class PlayingAround
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
     }
 
     @Mod.EventHandler
