@@ -1,0 +1,13 @@
+# Creative Tabs
+itemGroup.playingaround=Playing Around
+
+# Items
+item.playingaround:swordNirite.name=Nirite Sword
+item.playingaround:ingotNirite.name=Nirite Ingot
+item.playingaround:helmNirite.name=Nirite Helmet
+item.playingaround:plateNirite.name=Nirite Chestplate
+item.playingaround:legsNirite.name=Nirite Leggings
+item.playingaround:bootsNirite.name=Nirite Boots
+
+#Blocks
+tile.playingaround:oreNirite.name=Nirite Ore

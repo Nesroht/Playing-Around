@@ -12,7 +12,7 @@ public class CreativeTabCommon
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.temporary;
+            return ModItems.swordNirite;
         }
     };
 }

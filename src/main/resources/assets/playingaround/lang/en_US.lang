@@ -1,8 +1,14 @@
 # Creative Tabs
-itemGroup.playingaround=Let's Mod Reboot
+itemGroup.playingaround=Playing Around
 
 # Items
-item.playingaround:temporary1.name=Temporary 1
+item.playingaround:swordNirite.name=Nirite Sword
+item.playingaround:ingotNirite.name=Nirite Ingot
+item.playingaround:helmNirite.name=Nirite Helmet
+item.playingaround:plateNirite.name=Nirite Chestplate
+item.playingaround:legsNirite.name=Nirite Leggings
+item.playingaround:bootsNirite.name=Nirite Boots
 
 #Blocks
-#tile.playingaround:temporaryBlock.name=Temporary Block
+tile.playingaround:oreNirite.name=Nirite Ore
+tile.playingaround:blockNirite.name=Nirite Block

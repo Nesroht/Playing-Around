@@ -1,7 +1,9 @@
 package com.nesroht.playingaround;
 
 import com.nesroht.playingaround.configuration.ConfigurationHandler;
+import com.nesroht.playingaround.init.ModBlocks;
 import com.nesroht.playingaround.init.ModItems;
+import com.nesroht.playingaround.init.Recipes;
 import com.nesroht.playingaround.proxy.IProxy;
 import com.nesroht.playingaround.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -10,6 +12,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
 
 @Mod(modid= Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class PlayingAround
@@ -27,6 +30,8 @@ public class PlayingAround
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+        ModBlocks.init();
+        Recipes.init();
     }
 
     @Mod.EventHandler
