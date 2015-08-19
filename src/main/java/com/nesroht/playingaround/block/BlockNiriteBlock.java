@@ -10,5 +10,7 @@ public class BlockNiriteBlock extends BlockCommon
         super(Material.iron);
         this.setBlockName(Names.Blocks.NIRITE_BLOCK);
         this.setBlockTextureName(Names.Blocks.NIRITE_BLOCK);
+        this.setHardness(3.0F);
+        this.setResistance(5.0F);
     }
 }
