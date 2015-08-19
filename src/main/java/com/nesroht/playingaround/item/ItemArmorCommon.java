@@ -2,7 +2,6 @@ package com.nesroht.playingaround.item;
 
 import com.nesroht.playingaround.creativetab.CreativeTabCommon;
 import com.nesroht.playingaround.reference.Material;
-import com.nesroht.playingaround.reference.Names;
 import com.nesroht.playingaround.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -44,6 +43,8 @@ public class ItemArmorCommon extends ItemArmor
     {
         itemIcon = iconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
     }
+
+
 
     public ModelBiped getArmorModel(EntityLivingBase entityLiving, ItemStack itemStack, int armorSlot)
     {
