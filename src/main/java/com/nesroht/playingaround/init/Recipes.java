@@ -4,7 +4,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
-import net.minecraftforge.oredict.ShapelessOreRecipe;
 
 public class Recipes {
     public static void init()
@@ -15,8 +14,9 @@ public class Recipes {
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.plateNirite), "s s", "sss", "sss", 's', ModItems.ingotNirite));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.legsNirite), "sss", "s s", "s s", 's', ModItems.ingotNirite));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.bootsNirite), "s s", "s s", 's', ModItems.ingotNirite));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.blockNirite), "sss", "sss", "sss", 's', ModItems.ingotNirite));
         //Shapeless Items
-        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.blockNirite), "sss", "sss", "sss", 's', ModItems.ingotNirite));
+
 
         //Smelting
         GameRegistry.addSmelting(ModBlocks.oreNirite, new ItemStack(ModItems.ingotNirite), 0.1F);
