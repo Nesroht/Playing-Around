@@ -1,66 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37ca5558-3ce1-4edb-bc46-d80139c2cc22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-19-4.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-19-5.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-19-6.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-19-7.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-20-1.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-20-2.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-20-3.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-20-4.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-20-5.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-20-6.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-20-7.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/3c604947-c962-3363-b382-8bb20e72179d.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/5f90bf1f-575d-3542-89d7-731859eee6f2.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/681f539b-8bb8-3f85-85e5-a2945f6c6539.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/6df1631d-0099-3a53-b895-83292d859c0d.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Playing-Around/assets/playingaround/textures/blocks/blockNirite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/ca560dd3-ebf9-3fc9-b2e6-088534082c81.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/d2fd1c5d-4760-35a0-aa0f-c197e25af2ac.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/fe207da4-45aa-3a2a-bf67-72a700290388.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Playing-Around/assets/playingaround/textures/blocks/furnace_front_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/playingaround/textures/blocks/furnace_front_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Playing-Around/assets/playingaround/textures/blocks/furnace_front_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/playingaround/textures/blocks/furnace_front_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Playing-Around/assets/playingaround/textures/blocks/furnace_side.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/playingaround/textures/blocks/furnace_side.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Playing-Around/assets/playingaround/textures/blocks/furnace_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/playingaround/textures/blocks/furnace_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/3c604947-c962-3363-b382-8bb20e72179d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/5f90bf1f-575d-3542-89d7-731859eee6f2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/681f539b-8bb8-3f85-85e5-a2945f6c6539.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/6df1631d-0099-3a53-b895-83292d859c0d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/ca560dd3-ebf9-3fc9-b2e6-088534082c81.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2015-08-19_12.02.36-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2015-08-19_12.04.44-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2015-08-19_14.22.57-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2015-08-20_13.17.10-server.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/d2fd1c5d-4760-35a0-aa0f-c197e25af2ac.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/fe207da4-45aa-3a2a-bf67-72a700290388.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/container/niriteFurnaceContainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/New World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/region/r.-1.1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New World/region/r.-1.1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/region/r.-2.1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New World/region/r.-2.1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/New World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockNiriteFurnace.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockNiriteFurnace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/client/gui/GuiNiriteFurnace.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/client/gui/GuiNiriteFurnace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Playing-Around.iml" afterPath="$PROJECT_DIR$/Playing-Around.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Playing-Around.iws" afterPath="$PROJECT_DIR$/Playing-Around.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/splash.properties" afterPath="$PROJECT_DIR$/eclipse/config/splash.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/usernamecache.json" afterPath="$PROJECT_DIR$/eclipse/usernamecache.json" />
-    </list>
+    <list default="true" id="37ca5558-3ce1-4edb-bc46-d80139c2cc22" name="Default" comment="" />
     <ignored path="Playing-Around.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -652,6 +593,13 @@
       <option name="number" value="Default" />
       <updated>1440073392962</updated>
     </task>
+    <task id="LOCAL-00001" summary="started work on furnace">
+      <created>1440078947569</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1440078947569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
