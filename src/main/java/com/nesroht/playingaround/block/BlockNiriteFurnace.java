@@ -88,8 +88,15 @@ public class BlockNiriteFurnace extends BlockContainer {
      * Gets the block's texture. Args: side, meta
      */
     @SideOnly(Side.CLIENT)
-    public IIcon getIcon(int int1, int int2) {
-        return int1 == 1 ? this.topside : (int1 == 0 ? this.topside : (int1 != int2 ? this.blockIcon : this.front));
+    public IIcon getIcon(int side, int meta) {
+        if (meta == 0 && side == 3){
+            return front;
+        }
+        if (side == 1){
+            return topside;
+        }
+        return side != meta ? this.blockIcon : front;
+
     }
 
     @SideOnly(Side.CLIENT)
