@@ -1,5 +1,6 @@
 package com.nesroht.playingaround;
 
+import com.nesroht.playingaround.client.handler.KeyInputEventHandler;
 import com.nesroht.playingaround.configuration.ConfigurationHandler;
 import com.nesroht.playingaround.init.ModBlocks;
 import com.nesroht.playingaround.init.ModItems;
@@ -31,13 +32,14 @@ public class PlayingAround
 
         ModItems.init();
         ModBlocks.init();
-        Recipes.init();
+        proxy.registerKeyBindings();
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+        Recipes.init();
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)

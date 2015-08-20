@@ -1,14 +1,30 @@
 # Creative Tabs
 itemGroup.playingaround=Playing Around
 
+# Keys
+keys.playingaround.category=Playing Around
+keys.playingaround.charge=Charge
+keys.playingaround.release=Release
+
 # Items
-item.playingaround:swordNirite.name=Nirite Sword
 item.playingaround:ingotNirite.name=Nirite Ingot
+
+#Armor
 item.playingaround:helmNirite.name=Nirite Helmet
 item.playingaround:plateNirite.name=Nirite Chestplate
 item.playingaround:legsNirite.name=Nirite Leggings
 item.playingaround:bootsNirite.name=Nirite Boots
 
+#Tools
+item.playingaround:axeNirite.name=Nirite Axe
+item.playingaround:spadeNirite.name=Nirite Shovel
+item.playingaround:pickNirite.name=Nirite Pickaxe
+item.playingaround:hoeNirite.name=Nirite Hoe
+
+#Weapons
+item.playingaround:swordNirite.name=Nirite Sword
+
 #Blocks
 tile.playingaround:oreNirite.name=Nirite Ore
 tile.playingaround:blockNirite.name=Nirite Block
+tile.playingaround:furnaceNirite.name=Nirite Furnace

@@ -1,5 +1,6 @@
-package com.nesroht.playingaround.item;
+package com.nesroht.playingaround.item.Items;
 
+import com.nesroht.playingaround.item.ItemCommon;
 import com.nesroht.playingaround.reference.Names;
 
 public class ItemNiriteIngot extends ItemCommon
