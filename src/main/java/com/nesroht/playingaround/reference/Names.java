@@ -11,7 +11,8 @@ public class Names
     {
         public static final String NIRITE_ORE = "oreNirite";
         public static final String NIRITE_BLOCK = "blockNirite";
-        public static final String NIRITE_FURNACE = "furnaceNirite";
+        public static final String NIRITE_FURNACE_OFF = "furnaceNiriteOff";
+        public static final String NIRITE_FURNACE_ON = "furnaceNiriteOn";
     }
     public static final class Weapons
     {

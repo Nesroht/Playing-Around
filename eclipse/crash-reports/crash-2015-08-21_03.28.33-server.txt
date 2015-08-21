@@ -1,0 +1,81 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 21/08/15 03:28
+Description: Ticking block entity
+
+java.lang.NullPointerException: Ticking block entity
+	at com.nesroht.playingaround.tiles.niriteFurnaceTile.pushSmeltStack(niriteFurnaceTile.java:124)
+	at com.nesroht.playingaround.tiles.niriteFurnaceTile.updateEntity(niriteFurnaceTile.java:95)
+	at net.minecraft.world.World.updateEntities(World.java:2160)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.nesroht.playingaround.tiles.niriteFurnaceTile.pushSmeltStack(niriteFurnaceTile.java:124)
+	at com.nesroht.playingaround.tiles.niriteFurnaceTile.updateEntity(niriteFurnaceTile.java:95)
+
+-- Block entity being ticked --
+Details:
+	Name: furnaceNiriteOn // com.nesroht.playingaround.tiles.niriteFurnaceTile
+	Block type: ID #177 (tile.playingaround:furnaceNiriteOff // com.nesroht.playingaround.block.BlockNiriteFurnace)
+	Block data value: 2 / 0x2 / 0b0010
+	Block location: World: (-346,5,647), Chunk: (at 6,0,7 in -22,40; contains blocks -352,0,640 to -337,255,655), Region: (-1,1; contains chunks -32,32 to -1,63, blocks -512,0,512 to -1,255,1023)
+	Actual block type: ID #177 (tile.playingaround:furnaceNiriteOff // com.nesroht.playingaround.block.BlockNiriteFurnace)
+	Actual block data value: 2 / 0x2 / 0b0010
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:2160)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['Player390'/210, l='New World', x=-344.77, y=4.00, z=644.79]]
+	Chunk stats: ServerChunkCache: 839 Drop: 0
+	Level seed: 6243333295922507562
+	Level generator: ID 01 - flat, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-491,4,829), Chunk: (at 5,0,13 in -31,51; contains blocks -496,0,816 to -481,255,831), Region: (-1,1; contains chunks -32,32 to -1,63, blocks -512,0,512 to -1,255,1023)
+	Level time: 305684 game time, 1000 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 8742 (now: false), thunder time: 42087 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.7.0_67, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 941800888 bytes (898 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1492 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1492} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar) 
+	UCHIJAAAA	PlayingAround{1.0} [Playing Around] (Playing-Around) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player390'/210, l='New World', x=-344.77, y=4.00, z=644.79]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

@@ -27,4 +27,4 @@ item.playingaround:swordNirite.name=Nirite Sword
 #Blocks
 tile.playingaround:oreNirite.name=Nirite Ore
 tile.playingaround:blockNirite.name=Nirite Block
-tile.playingaround:furnaceNirite.name=Nirite Furnace
+tile.playingaround:furnaceNiriteOff.name=Nirite Furnace
