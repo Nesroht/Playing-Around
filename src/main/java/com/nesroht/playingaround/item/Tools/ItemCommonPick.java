@@ -10,13 +10,13 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
 
-public class ItemNiritePick extends ItemPickaxe
+public class ItemCommonPick extends ItemPickaxe
 {
-    public ItemNiritePick()
+    public ItemCommonPick(ToolMaterial mat, String name)
     {
-        super(Material.Tools.NIRITE_TOOL);
+        super(mat);
+        this.setUnlocalizedName(name);
         setCreativeTab(CreativeTabCommon.COMMON_TAB);
-        this.setUnlocalizedName(Names.Tools.NIRITE_PICK);
         this.setMaxStackSize(1);
     }
     @Override
@@ -42,4 +42,5 @@ public class ItemNiritePick extends ItemPickaxe
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
+
 }

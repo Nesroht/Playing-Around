@@ -1,4 +1,4 @@
-package com.nesroht.playingaround.item.Tools;
+package com.nesroht.playingaround.item.Weapons;
 
 import com.nesroht.playingaround.creativetab.CreativeTabCommon;
 import com.nesroht.playingaround.reference.Material;
@@ -7,16 +7,16 @@ import com.nesroht.playingaround.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemSword;
 
-public class ItemNiriteShovel extends ItemSpade
+public class ItemCommonSword extends ItemSword
 {
-    public ItemNiriteShovel()
+    public ItemCommonSword(ToolMaterial mat, String name)
     {
-        super(Material.Tools.NIRITE_TOOL);
+        super(mat);
         setCreativeTab(CreativeTabCommon.COMMON_TAB);
-        this.setUnlocalizedName(Names.Tools.NIRITE_SPADE);
+        this.setUnlocalizedName(name);
         this.setMaxStackSize(1);
     }
     @Override

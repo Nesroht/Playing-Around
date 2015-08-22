@@ -7,16 +7,16 @@ import com.nesroht.playingaround.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.ItemHoe;
+import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
 
-public class ItemNiriteHoe extends ItemHoe
+public class ItemCommonAxe extends ItemAxe
 {
-    public ItemNiriteHoe()
+    public ItemCommonAxe(ToolMaterial mat, String name)
     {
-        super(Material.Tools.NIRITE_TOOL);
+        super(mat);
+        this.setUnlocalizedName(name);
         setCreativeTab(CreativeTabCommon.COMMON_TAB);
-        this.setUnlocalizedName(Names.Tools.NIRITE_HOE);
         this.setMaxStackSize(1);
     }
     @Override

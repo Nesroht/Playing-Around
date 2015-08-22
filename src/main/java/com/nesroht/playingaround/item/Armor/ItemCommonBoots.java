@@ -4,10 +4,10 @@ import com.nesroht.playingaround.item.ItemArmorCommon;
 import com.nesroht.playingaround.reference.Names;
 import net.minecraft.item.ItemArmor;
 
-public class ItemNiriteHelmet extends ItemArmorCommon {
-    public ItemNiriteHelmet()
+public class ItemCommonBoots extends ItemArmorCommon {
+    public ItemCommonBoots(ArmorMaterial mat, String type, String name)
     {
-        super(0);
-        this.setUnlocalizedName(Names.Armor.NIRITE_HELM);
+        super(3, mat, type);
+        this.setUnlocalizedName(name);
     }
 }

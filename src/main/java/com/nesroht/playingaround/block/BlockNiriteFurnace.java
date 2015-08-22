@@ -49,8 +49,9 @@ public class BlockNiriteFurnace extends BlockContainer {
         }
         isActive=Active;
         isUpdating=false;
-        this.setBlockName("furnaceiriteOff");
-        this.textureName = "furnace_nirite";
+        this.setBlockName("furnacenirite");
+        this.textureName = "furnacenirite";
+        this.setBlockTextureName(this.getUnwrappedUnlocalizedName(this.getUnlocalizedName()));
     }
 
     @Override
@@ -206,7 +207,7 @@ public class BlockNiriteFurnace extends BlockContainer {
         {
             return front;
         }
-        if (side == 1)
+        if (side == 1 || side == 0)
         {
             return topside;
         }

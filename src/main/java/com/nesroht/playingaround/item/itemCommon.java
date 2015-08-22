@@ -10,9 +10,10 @@ import net.minecraft.item.ItemStack;
 
 public class ItemCommon extends Item
 {
-    public ItemCommon()
+    public ItemCommon(String name)
     {
         super();
+        this.setUnlocalizedName(name);
         this.setCreativeTab(CreativeTabCommon.COMMON_TAB);
     }
 

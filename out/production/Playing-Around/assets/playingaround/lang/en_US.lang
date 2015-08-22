@@ -8,23 +8,35 @@ keys.playingaround.release=Release
 
 # Items
 item.playingaround:ingotNirite.name=Nirite Ingot
+item.playingaround:gemWhiteDiamond.name=White Diamond
 
 #Armor
 item.playingaround:helmNirite.name=Nirite Helmet
 item.playingaround:plateNirite.name=Nirite Chestplate
 item.playingaround:legsNirite.name=Nirite Leggings
 item.playingaround:bootsNirite.name=Nirite Boots
+item.playingaround:helmWhiteDiamond.name=White Diamond Helmet
+item.playingaround:plateWhiteDiamond.name=White Diamond Chestplate
+item.playingaround:legsWhiteDiamond.name=White Diamond Leggings
+item.playingaround:bootsWhiteDiamond.name=White Diamond Boots
 
 #Tools
 item.playingaround:axeNirite.name=Nirite Axe
 item.playingaround:spadeNirite.name=Nirite Shovel
 item.playingaround:pickNirite.name=Nirite Pickaxe
 item.playingaround:hoeNirite.name=Nirite Hoe
+item.playingaround:axeWhiteDiamond.name=White Diamond Axe
+item.playingaround:spadeWhiteDiamond.name=White Diamond Shovel
+item.playingaround:pickWhiteDiamond.name=White Diamond Pickaxe
+item.playingaround:hoeWhiteDiamond.name=White Diamond Hoe
 
 #Weapons
 item.playingaround:swordNirite.name=Nirite Sword
+item.playingaround:swordWhiteDiamond.name=White Diamond Sword
 
 #Blocks
 tile.playingaround:oreNirite.name=Nirite Ore
+tile.playingaround:oreWhiteDiamond.name=White Diamond Ore
 tile.playingaround:blockNirite.name=Nirite Block
-tile.playingaround:furnaceNiriteOff.name=Nirite Furnace
+tile.playingaround:blockWhiteDiamond.name=White Diamond Block
+tile.playingaround:furnacenirite.name=Nirite Furnace

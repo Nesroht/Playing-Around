@@ -1,6 +1,7 @@
 package com.nesroht.playingaround.item;
 
 import com.nesroht.playingaround.creativetab.CreativeTabCommon;
+import com.nesroht.playingaround.init.ModItems;
 import com.nesroht.playingaround.reference.Material;
 import com.nesroht.playingaround.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
@@ -14,9 +15,11 @@ import net.minecraft.item.ItemStack;
 
 public class ItemArmorCommon extends ItemArmor
 {
-    public ItemArmorCommon(int piece)
+    public String material = "";
+    public ItemArmorCommon(int piece, ArmorMaterial mat, String type2)
     {
         super(Material.Armor.NIRITE_ARMOR, 0, piece);
+        material = type2;
         setCreativeTab(CreativeTabCommon.COMMON_TAB);
         this.setMaxStackSize(1);
     }
@@ -34,7 +37,16 @@ public class ItemArmorCommon extends ItemArmor
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
     {
-        return null;
+        if(stack.getItem() == ModItems.helmNirite || stack.getItem() == ModItems.bootsNirite || stack.getItem() == ModItems.plateNirite){
+            return Reference.MOD_ID + ":textures/armor/"+ material +"_layer1.png";
+        }
+        else if(stack.getItem() == ModItems.legsNirite){
+            return Reference.MOD_ID + ":textures/armor/" + material +"_layer2.png";
+        }
+        else{
+            return null;
+        }
+
     }
 
     @Override

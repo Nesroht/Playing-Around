@@ -1,6 +1,7 @@
 package com.nesroht.playingaround.tiles;
 
 import com.nesroht.playingaround.block.BlockNiriteFurnace;
+import com.nesroht.playingaround.reference.Names;
 import com.nesroht.playingaround.utility.ItemHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -17,7 +18,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityFurnace;
 
 public class niriteFurnaceTile extends TileEntity implements IInventory, ISidedInventory {
-    public int ticksBeforeSmelt = 40;
+    public int ticksBeforeSmelt = 10;
     public int efficiencyBonus = 1;
     public int furnaceBurnTime;
     public int currentItemBurnTime;
@@ -140,7 +141,7 @@ public class niriteFurnaceTile extends TileEntity implements IInventory, ISidedI
         ItemStack smeltResult = FurnaceRecipes.smelting().getSmeltingResult(toSmelt).copy();
         ItemStack currentSmelted = getStackInSlot(outputSlot);
 
-        if (ItemHelper.getOreDictionaryName(toSmelt).startsWith("ore")) {
+        if (ItemHelper.getOreDictionaryName(toSmelt).startsWith("ore") && ItemHelper.getOreDictionaryName(toSmelt) != "oreWhiteDiamond") {
             smeltResult.stackSize *= 2;
         }
 
