@@ -18,7 +18,7 @@ public class ItemArmorCommon extends ItemArmor
     public String material = "";
     public ItemArmorCommon(int piece, ArmorMaterial mat, String type2)
     {
-        super(Material.Armor.NIRITE_ARMOR, 0, piece);
+        super(mat, 0, piece);
         material = type2;
         setCreativeTab(CreativeTabCommon.COMMON_TAB);
         this.setMaxStackSize(1);
@@ -40,7 +40,10 @@ public class ItemArmorCommon extends ItemArmor
         if(stack.getItem() == ModItems.helmNirite || stack.getItem() == ModItems.bootsNirite || stack.getItem() == ModItems.plateNirite){
             return Reference.MOD_ID + ":textures/armor/"+ material +"_layer1.png";
         }
-        else if(stack.getItem() == ModItems.legsNirite){
+        else if(stack.getItem() == ModItems.helmWhiteDiamond || stack.getItem() == ModItems.bootsWhiteDiamond || stack.getItem() == ModItems.plateWhiteDiamond){
+            return Reference.MOD_ID + ":textures/armor/"+ material +"_layer1.png";
+        }
+        else if(stack.getItem() == ModItems.legsNirite || stack.getItem() == ModItems.legsWhiteDiamond){
             return Reference.MOD_ID + ":textures/armor/" + material +"_layer2.png";
         }
         else{

@@ -2,65 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ca5558-3ce1-4edb-bc46-d80139c2cc22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockCommonOre.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemCommonAxe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemCommonHoe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemCommonPick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemCommonShovel.java" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\out\production\Playing-Around\assets\playingaround\textures\blocks\furnace_front_off.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\out\production\Playing-Around\assets\playingaround\textures\blocks\furnace_front_on.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\out\production\Playing-Around\assets\playingaround\textures\blocks\furnace_nirite_front_off.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\out\production\Playing-Around\assets\playingaround\textures\blocks\furnace_nirite_front_on.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\out\production\Playing-Around\assets\playingaround\textures\blocks\furnace_nirite_side.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\out\production\Playing-Around\assets\playingaround\textures\blocks\furnace_nirite_top.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\out\production\Playing-Around\assets\playingaround\textures\blocks\furnace_side.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\out\production\Playing-Around\assets\playingaround\textures\blocks\furnace_top.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\block\BlockNiriteBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\block\BlockNiriteOre.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Items\ItemNiriteIngot.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Tools\ItemNiriteAxe.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Tools\ItemNiriteHoe.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Tools\ItemNiritePick.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Tools\ItemNiriteShovel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\resources\assets\playingaround\textures\blocks\furnace_nirite_front_off.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\resources\assets\playingaround\textures\blocks\furnace_nirite_front_on.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\resources\assets\playingaround\textures\blocks\furnace_nirite_side.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\resources\assets\playingaround\textures\blocks\furnace_nirite_top.png" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Armor\ItemNiriteBoots.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonBoots.java" />
-      <change type="MOVED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Armor\ItemNiriteHelmet.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonHelmet.java" />
-      <change type="MOVED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Armor\ItemNiriteLegs.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonLegs.java" />
-      <change type="MOVED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Armor\ItemNiritePlate.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonPlate.java" />
-      <change type="MOVED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\Weapons\ItemNiriteSword.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Weapons/ItemCommonSword.java" />
-      <change type="MOVED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\item\itemCommon.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemCommon.java" />
-      <change type="MOVED" beforePath="C:\Users\Sebastian\Desktop\Projects\Minecraft\1.7.10\Playing-Around\src\main\java\com\nesroht\playingaround\tiles\NiriteFurnaceTile.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/tiles/niriteFurnaceTile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-21-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-21-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-21-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-21-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-21-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-21-3.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-21-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-21-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-21-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-21-5.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-21-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-21-6.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-21-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-21-7.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/27fc360e-fa24-3dff-9bfe-79a065a3b88e.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/27fc360e-fa24-3dff-9bfe-79a065a3b88e.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/41196538-4c2b-371d-b141-0e51ad033fac.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/41196538-4c2b-371d-b141-0e51ad033fac.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/4c4af65a-e991-33a8-a762-2d145c215578.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/4c4af65a-e991-33a8-a762-2d145c215578.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/538c2a55-7afc-37c7-ab76-b8f0ee8467dd.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/538c2a55-7afc-37c7-ab76-b8f0ee8467dd.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/5d6f5056-9d82-3950-9ee4-6a4e4ed3cf33.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/5d6f5056-9d82-3950-9ee4-6a4e4ed3cf33.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/68723020-3c7d-332b-9007-b1f8c7a00304.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/68723020-3c7d-332b-9007-b1f8c7a00304.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/a129ebab-93ca-3ac8-86a9-47cce1be86d0.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/a129ebab-93ca-3ac8-86a9-47cce1be86d0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/ad4a30d4-53bd-30c6-b482-5d77fb42b2d7.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/ad4a30d4-53bd-30c6-b482-5d77fb42b2d7.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/b743052f-5855-37e7-a97b-fd551acafef4.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/b743052f-5855-37e7-a97b-fd551acafef4.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/c98187a9-e17b-3f48-8a33-882e62d18d19.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/c98187a9-e17b-3f48-8a33-882e62d18d19.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/d2fd1c5d-4760-35a0-aa0f-c197e25af2ac.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/d2fd1c5d-4760-35a0-aa0f-c197e25af2ac.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-22-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-22-1.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-22-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-22-2.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-22-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-22-3.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-22-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-22-4.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-22-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-22-5.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-22-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-22-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-08-22-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-08-22-7.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/e5a660b6-9d51-36ee-858e-f73e02a3f36f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/e5a660b6-9d51-36ee-858e-f73e02a3f36f.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/eb3e37b3-0c87-3026-b460-637c38fd4fdd.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/eb3e37b3-0c87-3026-b460-637c38fd4fdd.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/fe207da4-45aa-3a2a-bf67-72a700290388.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/fe207da4-45aa-3a2a-bf67-72a700290388.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/fe736038-102e-365b-a97e-eabc472944ec.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/fe736038-102e-365b-a97e-eabc472944ec.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Playing-Around/assets/playingaround/textures/items/gemWhiteDiamond.png" afterPath="$PROJECT_DIR$/out/production/Playing-Around/assets/playingaround/textures/items/gemWhiteDiamond.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/New World/level.dat_old" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New World/region/r.-1.0.mca" />
@@ -71,37 +21,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/DIM-1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/DIM1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/41196538-4c2b-371d-b141-0e51ad033fac.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/41196538-4c2b-371d-b141-0e51ad033fac.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/4c4af65a-e991-33a8-a762-2d145c215578.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/4c4af65a-e991-33a8-a762-2d145c215578.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/538c2a55-7afc-37c7-ab76-b8f0ee8467dd.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/538c2a55-7afc-37c7-ab76-b8f0ee8467dd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/5d6f5056-9d82-3950-9ee4-6a4e4ed3cf33.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/5d6f5056-9d82-3950-9ee4-6a4e4ed3cf33.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/68723020-3c7d-332b-9007-b1f8c7a00304.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/68723020-3c7d-332b-9007-b1f8c7a00304.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockNiriteFurnace.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockNiriteFurnace.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemArmorCommon.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemArmorCommon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Material.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Material.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Names.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Names.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonBoots.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonBoots.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonHelmet.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonHelmet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonLegs.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonLegs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonPlate.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonPlate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Playing-Around.iws" afterPath="$PROJECT_DIR$/Playing-Around.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/Recipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/Recipes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/a129ebab-93ca-3ac8-86a9-47cce1be86d0.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/a129ebab-93ca-3ac8-86a9-47cce1be86d0.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/ad4a30d4-53bd-30c6-b482-5d77fb42b2d7.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/ad4a30d4-53bd-30c6-b482-5d77fb42b2d7.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/b743052f-5855-37e7-a97b-fd551acafef4.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/b743052f-5855-37e7-a97b-fd551acafef4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/c98187a9-e17b-3f48-8a33-882e62d18d19.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/c98187a9-e17b-3f48-8a33-882e62d18d19.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/d2fd1c5d-4760-35a0-aa0f-c197e25af2ac.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/d2fd1c5d-4760-35a0-aa0f-c197e25af2ac.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/e5a660b6-9d51-36ee-858e-f73e02a3f36f.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/e5a660b6-9d51-36ee-858e-f73e02a3f36f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/eb3e37b3-0c87-3026-b460-637c38fd4fdd.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/eb3e37b3-0c87-3026-b460-637c38fd4fdd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Playing-Around/assets/playingaround/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/Playing-Around/assets/playingaround/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/playingaround/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/playingaround/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/fe207da4-45aa-3a2a-bf67-72a700290388.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/fe207da4-45aa-3a2a-bf67-72a700290388.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/fe736038-102e-365b-a97e-eabc472944ec.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/fe736038-102e-365b-a97e-eabc472944ec.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/options.txt" afterPath="$PROJECT_DIR$/eclipse/options.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/splash.properties" afterPath="$PROJECT_DIR$/eclipse/config/splash.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/usernamecache.json" afterPath="$PROJECT_DIR$/eclipse/usernamecache.json" />
     </list>
@@ -194,11 +122,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BlockCommonOre.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockCommonOre.java">
+      <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModItems.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,11 +134,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockOre.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockOre.java">
+      <file leaf-file-name="Material.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Material.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3448277">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCommonHelmet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonHelmet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22135417">
+              <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCommonLegs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonLegs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCommonPlate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonPlate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -220,86 +178,28 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Names.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModBlocks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68869936">
-              <caret line="27" column="178" selection-start-line="27" selection-start-column="178" selection-end-line="27" selection-end-column="178" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Block.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/Block.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.034483">
-              <caret line="298" column="42" selection-start-line="298" selection-start-column="37" selection-end-line="298" selection-end-column="42" />
-              <folding>
-                <element signature="e#112572#112573#0" expanded="true" />
-                <element signature="e#112616#112617#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockStainedGlassPane.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockStainedGlassPane.java">
+      <file leaf-file-name="ItemArmorCommon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemArmorCommon.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockPane.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockPane.java">
+      <file leaf-file-name="ItemCommonBoots.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonBoots.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+              <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockCommon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockCommon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Material.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/material/Material.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.034483">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="36" />
-              <folding>
-                <element signature="e#7832#7833#0" expanded="true" />
-                <element signature="e#7881#7882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModItems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -344,10 +244,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemNiritePick.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemNiriteShovel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemNiriteBoots.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonPlate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonHelmet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonLegs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemArmorCommon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemCommonAxe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemCommonHoe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemCommonPick.java" />
@@ -359,10 +255,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/playingaround/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemCommon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockCommonOre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/Recipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/tiles/niriteFurnaceTile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/Recipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemArmorWhiteDiamond.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemArmorNirite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemArmorCommon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonBoots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonPlate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonLegs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonHelmet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModItems.java" />
       </list>
     </option>
   </component>
@@ -526,86 +429,6 @@
               <option name="myItemId" value="Playing-Around" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -690,50 +513,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.nesroht.playingaround" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Weapons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Playing-Around" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.nesroht.playingaround" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -983,6 +762,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectE" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1132,8 +912,8 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="GradleStart" />
       <option name="VM_PARAMETERS" value="-Xincgc -Xmx1024M -Xms1024M" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../Playing-Around\eclipse" />
+      <option name="PROGRAM_PARAMETERS" value="--username=Imbastyle --password=Starwarsrisk123" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/eclipse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1197,12 +977,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1879085" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1879085" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34150326" sideWeight="0.5030257" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3267974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33006537" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1249,34 +1029,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/creativetab/CreativeTabCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-            <element signature="e#483#484#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/inventory/InventoryBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/nbt/NBTTagCompound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.034483">
-          <caret line="365" column="26" selection-start-line="365" selection-start-column="19" selection-end-line="365" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/item/ItemStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1413,40 +1165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonLegs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonPlate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonHelmet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemArmorCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Tools/ItemCommonAxe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1515,14 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/utility/ItemHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/playingaround/lang/en_US.lang">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1535,14 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonBoots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1585,48 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Material.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/Recipes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="105" selection-start-line="49" selection-start-column="105" selection-end-line="49" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Names.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockCommonOre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1645,14 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockStainedGlassPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/block/BlockCommon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1666,8 +1318,8 @@
         <state vertical-scroll-proportion="-4.034483">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="36" />
           <folding>
-            <element signature="e#7832#7833#0" expanded="true" />
-            <element signature="e#7881#7882#0" expanded="true" />
+            <element signature="e#7832#7833#0" expanded="false" />
+            <element signature="e#7881#7882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1677,16 +1329,122 @@
         <state vertical-scroll-proportion="-4.034483">
           <caret line="298" column="42" selection-start-line="298" selection-start-column="37" selection-end-line="298" selection-end-column="42" />
           <folding>
-            <element signature="e#112572#112573#0" expanded="true" />
-            <element signature="e#112616#112617#0" expanded="true" />
+            <element signature="e#112572#112573#0" expanded="false" />
+            <element signature="e#112616#112617#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/item/ItemCarrotOnAStick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.578534">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8691099">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockStainedGlassPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17801048">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModBlocks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68869936">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="178" selection-start-line="27" selection-start-column="178" selection-end-line="27" selection-end-column="178" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/Recipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/utility/ItemHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Material.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/reference/Names.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/ItemArmorCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonPlate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonLegs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonBoots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nesroht/playingaround/item/Armor/ItemCommonHelmet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22135417">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
           <folding />
         </state>
       </provider>

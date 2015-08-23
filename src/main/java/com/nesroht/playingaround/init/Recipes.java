@@ -11,8 +11,8 @@ public class Recipes {
     {
         //Shaped Items
             //Weapons
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.swordNirite), " s ", " s ", " t ", 's', ModItems.ingotNirite, 't', "stickWood"));
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.swordWhiteDiamond), " s ", " s ", " t ", 's', ModItems.gemWhiteDiamond, 't', "stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.swordNirite), "s", "s", "t", 's', ModItems.ingotNirite, 't', "stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.swordWhiteDiamond), "s", "s", "t", 's', ModItems.gemWhiteDiamond, 't', "stickWood"));
             //Armors
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.helmNirite), "sss", "s s", 's', ModItems.ingotNirite));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.plateNirite), "s s", "sss", "sss", 's', ModItems.ingotNirite));
@@ -24,11 +24,11 @@ public class Recipes {
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.bootsWhiteDiamond), "s s", "s s", 's', ModItems.gemWhiteDiamond));
             //Tools
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.pickNirite),"sss"," t "," t ",'s',ModItems.ingotNirite,'t',"stickWood"));
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.axeNirite),"ss ","st "," t ",'s',ModItems.ingotNirite,'t',"stickWood"));
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.axeNirite)," ss"," ts"," t ",'s',ModItems.ingotNirite,'t',"stickWood"));
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.spadeNirite)," s "," t "," t ",'s',ModItems.ingotNirite,'t',"stickWood"));
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.hoeNirite),"ss "," t "," t ",'s',ModItems.ingotNirite,'t',"stickWood"));
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.hoeNirite)," ss"," t "," t ",'s',ModItems.ingotNirite,'t',"stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.axeNirite),"ss","st"," t",'s',ModItems.ingotNirite,'t',"stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.axeNirite),"ss","ts","t ",'s',ModItems.ingotNirite,'t',"stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.spadeNirite),"s","t","t",'s',ModItems.ingotNirite,'t',"stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.hoeNirite),"ss"," t"," t",'s',ModItems.ingotNirite,'t',"stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.hoeNirite),"ss","t ","t ",'s',ModItems.ingotNirite,'t',"stickWood"));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.pickWhiteDiamond),"sss"," t "," t ",'s',ModItems.gemWhiteDiamond,'t',"stickWood"));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.axeWhiteDiamond),"ss ","st "," t ",'s',ModItems.gemWhiteDiamond,'t',"stickWood"));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.axeWhiteDiamond)," ss"," ts"," t ",'s',ModItems.gemWhiteDiamond,'t',"stickWood"));
