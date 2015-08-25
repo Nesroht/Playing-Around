@@ -8,6 +8,9 @@ import com.nesroht.playingaround.init.ModItems;
 import com.nesroht.playingaround.init.Recipes;
 import com.nesroht.playingaround.proxy.IProxy;
 import com.nesroht.playingaround.reference.Reference;
+import com.nesroht.playingaround.utility.PacketHandler;
+import com.nesroht.playingaround.utility.PlayerEvents;
+import com.nesroht.playingaround.utility.TickEvents;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -15,6 +18,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
+import net.minecraftforge.common.MinecraftForge;
 
 
 @Mod(modid= Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
@@ -34,8 +38,14 @@ public class PlayingAround
 
         ModItems.init();
         ModBlocks.init();
+
         proxy.registerKeyBindings();
         NetworkRegistry.INSTANCE.registerGuiHandler(PlayingAround.instance, new GuiHandler());
+        PlayerEvents pe = new PlayerEvents();
+        MinecraftForge.EVENT_BUS.register(pe);
+        FMLCommonHandler.instance().bus().register(pe);
+        FMLCommonHandler.instance().bus().register(new TickEvents());
+        PacketHandler.register();
     }
 
     @Mod.EventHandler

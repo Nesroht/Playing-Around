@@ -2,7 +2,6 @@ package com.nesroht.playingaround.item;
 
 import com.nesroht.playingaround.creativetab.CreativeTabCommon;
 import com.nesroht.playingaround.init.ModItems;
-import com.nesroht.playingaround.reference.Material;
 import com.nesroht.playingaround.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -10,8 +9,10 @@ import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 public class ItemArmorCommon extends ItemArmor
 {
@@ -51,6 +52,36 @@ public class ItemArmorCommon extends ItemArmor
         }
 
     }
+    @Override
+    public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
+        canFly(player);
+    }
+
+    public static void canFly(EntityPlayer player){
+        ItemStack helmet = player.getCurrentArmor(3);
+        ItemStack plate = player.getCurrentArmor(2);
+        ItemStack legs = player.getCurrentArmor(1);
+        ItemStack boots = player.getCurrentArmor(0);
+
+        if (helmet != null && plate != null && legs != null && boots != null) {
+            if(player.getCurrentArmor(3).getItem() == ModItems.helmNirite && player.getCurrentArmor(0).getItem() == ModItems.bootsNirite && player.getCurrentArmor(2).getItem() == ModItems.plateNirite && player.getCurrentArmor(1).getItem() == ModItems.legsNirite){
+                player.capabilities.allowFlying = true;
+            }
+            else if(player.getCurrentArmor(3).getItem() == ModItems.helmWhiteDiamond && player.getCurrentArmor(0).getItem() == ModItems.bootsWhiteDiamond && player.getCurrentArmor(2).getItem() == ModItems.plateWhiteDiamond && player.getCurrentArmor(1).getItem() == ModItems.legsWhiteDiamond){
+                player.capabilities.allowFlying = true;
+            }
+            else
+            {
+                player.capabilities.allowFlying = false;
+                player.capabilities.isFlying = false;
+            }
+        }
+        else if (!player.capabilities.isCreativeMode){
+            player.capabilities.allowFlying = false;
+            player.capabilities.isFlying = false;
+        }
+    }
+
 
     @Override
     @SideOnly(Side.CLIENT)
@@ -70,4 +101,6 @@ public class ItemArmorCommon extends ItemArmor
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
+
+
 }
