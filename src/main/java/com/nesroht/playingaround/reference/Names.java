@@ -6,6 +6,9 @@ public class Names
     {
         public static final String NIRITE_INGOT = "ingotNirite";
         public static final String WHITE_DIAMOND_GEM = "gemWhiteDiamond";
+        public static final String NIRITE_DIAMOND_GEM = "gemNiriteDiamond";
+        public static final String NIRITE_NUGGET = "nuggetNirite";
+        public static final String NIRITE_STAR = "starNirite";
     }
 
     public static final class Blocks
@@ -52,7 +55,7 @@ public class Names
     public static final class Keys
     {
         public static final String CATEGORY = "keys.playingaround.category";
-        public static final String CHARGE = "keys.playingaround.charge";
+        public static final String MODE = "keys.playingaround.mode";
         public static final String RELEASE = "keys.playingaround.release";
     }
 }

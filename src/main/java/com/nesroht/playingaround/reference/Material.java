@@ -13,8 +13,8 @@ public class Material
     }
     public static final class Armor
     {
-        public static final ItemArmor.ArmorMaterial NIRITE_ARMOR = EnumHelper.addArmorMaterial(Names.Materials.NIRITE, 30, new int[] {3, 8, 6, 3}, 26);
-        public static final ItemArmor.ArmorMaterial WHITE_DIAMOND_ARMOR = EnumHelper.addArmorMaterial(Names.Materials.WHITE_DIAMOND, 30, new int[] {3, 8, 6, 3}, 26);
+        public static final ItemArmor.ArmorMaterial NIRITE_ARMOR = EnumHelper.addArmorMaterial(Names.Materials.NIRITE, 40, new int[] {3, 8, 6, 3}, 26);
+        public static final ItemArmor.ArmorMaterial WHITE_DIAMOND_ARMOR = EnumHelper.addArmorMaterial(Names.Materials.WHITE_DIAMOND, 40, new int[] {3, 8, 6, 3}, 26);
     }
 
 }

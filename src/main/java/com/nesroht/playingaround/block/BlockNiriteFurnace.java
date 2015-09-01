@@ -144,12 +144,11 @@ public class BlockNiriteFurnace extends BlockContainer {
 
         TileEntity tile = world.getTileEntity(x, y, z);
 
-        if (stack.hasTagCompound() && stack.stackTagCompound.getBoolean("ProjectEBlock"))
+        if (stack.hasTagCompound() && stack.stackTagCompound.getBoolean("PABlock"))
         {
             stack.stackTagCompound.setInteger("x", x);
             stack.stackTagCompound.setInteger("y", y);
             stack.stackTagCompound.setInteger("z", z);
-            stack.stackTagCompound.setInteger("EMC", 0);
             stack.stackTagCompound.setShort("BurnTime", (short) 0);
             stack.stackTagCompound.setShort("CookTime", (short) 0);
 

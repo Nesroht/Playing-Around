@@ -21,14 +21,20 @@ public class ModBlocks {
 
     public static void init()
     {
+        //Ore
         GameRegistry.registerBlock(oreWhiteDiamond, Names.Blocks.WHITE_DIAMOND_ORE).setBlockName(Names.Blocks.WHITE_DIAMOND_ORE).setBlockTextureName(Names.Blocks.WHITE_DIAMOND_ORE);
         OreDictionary.registerOre(Names.Blocks.WHITE_DIAMOND_ORE, oreWhiteDiamond);
         GameRegistry.registerBlock(oreNirite, Names.Blocks.NIRITE_ORE).setBlockName(Names.Blocks.NIRITE_ORE).setBlockTextureName(Names.Blocks.NIRITE_ORE);
         OreDictionary.registerOre(Names.Blocks.NIRITE_ORE, oreNirite);
+
+        //Blocks
         GameRegistry.registerBlock(blockNirite, Names.Blocks.NIRITE_BLOCK).setBlockName(Names.Blocks.NIRITE_BLOCK).setBlockTextureName(Names.Blocks.NIRITE_BLOCK).setResistance(10.0F).setHardness(3.0F);
         GameRegistry.registerBlock(blockWhiteDiamond, Names.Blocks.WHITE_DIAMOND_BLOCK).setBlockName(Names.Blocks.WHITE_DIAMOND_BLOCK).setBlockTextureName(Names.Blocks.WHITE_DIAMOND_BLOCK).setResistance(10.0F).setHardness(3.0F);
+
+        //Containers
         GameRegistry.registerBlock(furnaceNiriteOff, Names.Blocks.NIRITE_FURNACE_OFF);
         GameRegistry.registerBlock(furnaceNiriteOn, Names.Blocks.NIRITE_FURNACE_ON);
         GameRegistry.registerTileEntity(niriteFurnaceTile.class, Names.Blocks.NIRITE_FURNACE_ON);
+
     }
 }

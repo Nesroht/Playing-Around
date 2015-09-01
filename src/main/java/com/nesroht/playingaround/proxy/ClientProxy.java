@@ -9,7 +9,7 @@ public class ClientProxy extends CommonProxy
     @Override
     public void registerKeyBindings()
     {
-        ClientRegistry.registerKeyBinding(Keybindings.charge);
+        ClientRegistry.registerKeyBinding(Keybindings.mode);
         ClientRegistry.registerKeyBinding(Keybindings.release);
     }
 }

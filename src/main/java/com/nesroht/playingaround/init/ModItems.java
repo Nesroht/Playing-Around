@@ -15,12 +15,17 @@ import com.nesroht.playingaround.reference.Names;
 import com.nesroht.playingaround.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
+import javax.lang.model.element.Name;
+
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
 {
     //Items
     public static final ItemCommon ingotNirite = new ItemCommon(Names.Items.NIRITE_INGOT);
     public static final ItemCommon gemWhiteDiamond = new ItemCommon(Names.Items.WHITE_DIAMOND_GEM);
+    public static final ItemCommon gemNiriteDiamond = new ItemCommon(Names.Items.NIRITE_DIAMOND_GEM);
+    public static final ItemCommon nuggetNirite = new ItemCommon(Names.Items.NIRITE_NUGGET);
+    public static final ItemCommon starNirite = new ItemCommon(Names.Items.NIRITE_STAR);
 
     //Tools
     public static final ItemCommonAxe axeNirite = new ItemCommonAxe(Material.Tools.NIRITE_TOOL, Names.Tools.NIRITE_AXE);
@@ -52,6 +57,7 @@ public class ModItems
         //Items
         GameRegistry.registerItem(ingotNirite, Names.Items.NIRITE_INGOT);
         GameRegistry.registerItem(gemWhiteDiamond, Names.Items.WHITE_DIAMOND_GEM);
+        GameRegistry.registerItem(starNirite, Names.Items.NIRITE_STAR);
 
         //Tools
         GameRegistry.registerItem(spadeNirite, Names.Tools.NIRITE_SPADE);

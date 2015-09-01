@@ -12,6 +12,7 @@ public class PacketHandler {
     private static final SimpleNetworkWrapper HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("playingaround");
     public static void register() {
         HANDLER.registerMessage(StepHeightPKT.Handler.class, StepHeightPKT.class, 0, Side.CLIENT);
+        HANDLER.registerMessage(KeyPressPKT.Handler.class, KeyPressPKT.class, 1, Side.SERVER);
     }
 
     public static Packet getMCPacket(IMessage message)
@@ -24,5 +25,9 @@ public class PacketHandler {
         {
             HANDLER.sendTo(msg, player);
         }
+    }
+    public static void sendToServer(IMessage msg)
+    {
+        HANDLER.sendToServer(msg);
     }
 }

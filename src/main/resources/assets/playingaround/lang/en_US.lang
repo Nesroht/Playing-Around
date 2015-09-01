@@ -3,12 +3,13 @@ itemGroup.playingaround=Playing Around
 
 # Keys
 keys.playingaround.category=Playing Around
-keys.playingaround.charge=Charge
+keys.playingaround.mode=Change Mode
 keys.playingaround.release=Release
 
 # Items
 item.playingaround:ingotNirite.name=Nirite Ingot
 item.playingaround:gemWhiteDiamond.name=White Diamond
+item.playingaround:starNirite.name=Nirite Star
 
 #Armor
 item.playingaround:helmNirite.name=Nirite Helmet
@@ -40,3 +41,12 @@ tile.playingaround:oreWhiteDiamond.name=White Diamond Ore
 tile.playingaround:blockNirite.name=Nirite Block
 tile.playingaround:blockWhiteDiamond.name=White Diamond Block
 tile.playingaround:furnacenirite.name=Nirite Furnace
+
+#Tooltips
+pa.armor.boots.stepassist_tooltip=Step Assist
+pa.armor.enabled=ENABLED
+pa.armor.disabled=DISABLED
+pa.armor.boots.stepassist.prompt=Press %s to toggle Step Assist
+pa.armor.flight.info=Flight active with full set: %s/4
+pa.armor.flight.onoff=Flight
+pa.armor.info=Armor made with %s

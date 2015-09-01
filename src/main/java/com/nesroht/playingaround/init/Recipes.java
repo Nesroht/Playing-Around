@@ -36,6 +36,8 @@ public class Recipes {
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.hoeWhiteDiamond),"ss "," t "," t ",'s',ModItems.gemWhiteDiamond,'t',"stickWood"));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.hoeWhiteDiamond)," ss"," t "," t ",'s',ModItems.gemWhiteDiamond,'t',"stickWood"));
             //Items
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.starNirite),"sts", "txt", "sts", 's', ModBlocks.blockNirite, 't', ModBlocks.blockWhiteDiamond, 'x', Items.nether_star));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.starNirite),"sts", "txt", "sts", 's', ModBlocks.blockWhiteDiamond, 't', ModBlocks.blockNirite, 'x', Items.nether_star));
 
             //Blocks
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.blockNirite), "sss", "sss", "sss", 's', ModItems.ingotNirite));
