@@ -1,6 +1,6 @@
 package com.nesroht.playingaround.container;
 
-import com.nesroht.playingaround.tiles.niriteFurnaceTile;
+import com.nesroht.playingaround.tiles.FurnaceTile;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.gui.inventory.GuiCrafting;
@@ -13,12 +13,12 @@ import net.minecraft.tileentity.TileEntityFurnace;
 
 public class niriteFurnaceContainer extends Container
 {
-    private niriteFurnaceTile tile;
+    private FurnaceTile tile;
     private int lastCookTime;
     private int lastBurnTime;
     private int lastItemBurnTime;
     private boolean lastTickOutputLock;
-    public niriteFurnaceContainer(InventoryPlayer invPlayer, niriteFurnaceTile tile){
+    public niriteFurnaceContainer(InventoryPlayer invPlayer, FurnaceTile tile){
         this.tile = tile;
 
         //Fuel

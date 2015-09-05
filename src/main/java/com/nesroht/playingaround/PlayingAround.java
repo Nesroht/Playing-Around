@@ -1,6 +1,5 @@
 package com.nesroht.playingaround;
 
-import com.nesroht.playingaround.client.handler.GuiHandler;
 import com.nesroht.playingaround.client.handler.KeyInputEventHandler;
 import com.nesroht.playingaround.configuration.ConfigurationHandler;
 import com.nesroht.playingaround.init.ModBlocks;
@@ -42,7 +41,7 @@ public class PlayingAround
         ModBlocks.init();
 
         proxy.registerKeyBindings();
-        NetworkRegistry.INSTANCE.registerGuiHandler(PlayingAround.instance, new GuiHandler());
+        proxy.registerRenderThings();
         PlayerEvents pe = new PlayerEvents();
         MinecraftForge.EVENT_BUS.register(pe);
         FMLCommonHandler.instance().bus().register(pe);

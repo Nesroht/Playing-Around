@@ -40,7 +40,7 @@ tile.playingaround:oreNirite.name=Nirite Ore
 tile.playingaround:oreWhiteDiamond.name=White Diamond Ore
 tile.playingaround:blockNirite.name=Nirite Block
 tile.playingaround:blockWhiteDiamond.name=White Diamond Block
-tile.playingaround:furnacenirite.name=Nirite Furnace
+tile.playingaround:furnace.name=Star Furnace
 
 #Tooltips
 pa.armor.boots.stepassist_tooltip=Step Assist

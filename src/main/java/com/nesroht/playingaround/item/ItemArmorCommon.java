@@ -69,11 +69,9 @@ public class ItemArmorCommon extends ItemArmor {
         if (helmet != null && plate != null && legs != null && boots != null) {
             if (player.getCurrentArmor(3).getItem() == ModItems.helmWhiteDiamond && player.getCurrentArmor(0).getItem() == ModItems.bootsWhiteDiamond && player.getCurrentArmor(2).getItem() == ModItems.plateWhiteDiamond && player.getCurrentArmor(1).getItem() == ModItems.legsWhiteDiamond) {
                 player.capabilities.allowFlying = true;
-            } else {
-                player.capabilities.allowFlying = false;
-                player.capabilities.isFlying = false;
             }
-        } else if (!player.capabilities.isCreativeMode) {
+        }
+        else if (!player.capabilities.isCreativeMode) {
             player.capabilities.allowFlying = false;
             player.capabilities.isFlying = false;
         }
