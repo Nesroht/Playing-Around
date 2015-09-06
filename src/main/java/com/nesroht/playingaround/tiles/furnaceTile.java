@@ -34,66 +34,7 @@ public class FurnaceTile extends TileEntity implements IInventory, ISidedInvento
     @Override
     public void updateEntity()
     {
-        boolean flag = furnaceBurnTime > 0;
-        boolean flag1 = false;
 
-        if (furnaceBurnTime > 0)
-        {
-            --furnaceBurnTime;
-        }
-
-        if (!worldObj.isRemote)
-        {
-            if (furnaceBurnTime == 0 && canSmelt(1))
-            {
-                currentItemBurnTime = furnaceBurnTime = getItemBurnTime(inventory[0]);
-
-                if (furnaceBurnTime > 0)
-                {
-                    flag1 = true;
-
-                    if (inventory[0] != null)
-                    {
-                        --inventory[0].stackSize;
-
-                        if (inventory[0].stackSize == 0)
-                        {
-                            inventory[0] = inventory[0].getItem().getContainerItem(inventory[0]);
-                        }
-                    }
-                }
-            }
-
-            if (furnaceBurnTime > 0 && canSmelt(1))
-            {
-                ++furnaceCookTime;
-
-                if (furnaceCookTime == ticksBeforeSmelt)
-                {
-                    furnaceCookTime = 0;
-                    smeltItem();
-                    flag1 = true;
-                }
-            }
-            else furnaceCookTime = 0;
-
-            if (flag != furnaceBurnTime > 0)
-            {
-                flag1 = true;
-                Block block = worldObj.getBlock(xCoord, yCoord, zCoord);
-
-                if (!this.worldObj.isRemote && block instanceof BlockFurnace)
-                {
-                    ((BlockFurnace) block).updateFurnaceBlockState(furnaceBurnTime > 0, worldObj, xCoord, yCoord, zCoord);
-                }
-            }
-        }
-
-        if (flag1)
-        {
-            markDirty();
-        }
-        pushSmeltStack();
     }
 
 
@@ -102,39 +43,6 @@ public class FurnaceTile extends TileEntity implements IInventory, ISidedInvento
         return furnaceBurnTime > 0;
     }
 
-    private void pushSmeltStack()
-    {
-        for (int i = inputStorage[0]+1; i <= inputStorage[1]; i++) {
-            ItemStack stack = inventory[i - 1];
-            ItemStack slotStack = inventory[i];
-            if (canSmelt(i)) {
-                if (slotStack != null && (stack == null || ItemHelper.areItemStacksEqual(slotStack, stack))) {
-                    if (stack == null) {
-                        inventory[i - 1] = slotStack.copy();
-                        inventory[i] = null;
-                        break;
-                    }
-
-                    int remain = stack.getMaxStackSize() - stack.stackSize;
-
-                    if (remain == 0) {
-                        break;
-                    }
-                    if (slotStack.stackSize <= remain) {
-                        inventory[i] = null;
-                        inventory[i - 1].stackSize += slotStack.stackSize;
-                        break;
-                    } else {
-                        this.decrStackSize(i, remain);
-                        inventory[i - 1].stackSize += remain;
-                    }
-                } else {
-                    break;
-
-                }
-            }
-        }
-    }
 
     private void smeltItem() {
         ItemStack toSmelt = inventory[1];

@@ -16,7 +16,7 @@ public class ModBlocks {
     public static final BlockCommonOre oreWhiteDiamond = new BlockCommonOre();
     public static final BlockCommon blockNirite = new BlockCommon();
     public static final BlockCommon blockWhiteDiamond = new BlockCommon();
-    public static final BlockFurnace furnace = new BlockFurnace(false);
+    public static final BlockFurnace furnace = new BlockFurnace();
 
     public static void init()
     {
@@ -31,8 +31,8 @@ public class ModBlocks {
         GameRegistry.registerBlock(blockWhiteDiamond, Names.Blocks.WHITE_DIAMOND_BLOCK).setBlockName(Names.Blocks.WHITE_DIAMOND_BLOCK).setBlockTextureName(Names.Blocks.WHITE_DIAMOND_BLOCK).setResistance(10.0F).setHardness(3.0F);
 
         //Containers
-        GameRegistry.registerBlock(furnace, Names.Blocks.NIRITE_FURNACE_OFF);
-        GameRegistry.registerTileEntity(FurnaceTile.class, Names.Blocks.NIRITE_FURNACE_ON);
+        GameRegistry.registerBlock(furnace, Names.Blocks.FURNACE);
+        GameRegistry.registerTileEntity(FurnaceTile.class, Names.Blocks.FURNACE);
 
     }
 }

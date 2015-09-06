@@ -17,8 +17,7 @@ public class Names
         public static final String WHITE_DIAMOND_ORE = "oreWhiteDiamond";
         public static final String NIRITE_BLOCK = "blockNirite";
         public static final String WHITE_DIAMOND_BLOCK = "blockWhiteDiamond";
-        public static final String NIRITE_FURNACE_OFF = "furnaceNiriteOff";
-        public static final String NIRITE_FURNACE_ON = "furnaceNiriteOn";
+        public static final String FURNACE = "furnace";
     }
     public static final class Weapons
     {

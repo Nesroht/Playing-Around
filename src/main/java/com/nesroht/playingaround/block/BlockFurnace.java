@@ -33,11 +33,8 @@ import net.minecraft.world.World;
 import java.util.Random;
 
 public class BlockFurnace extends BlockContainer {
-    private final Random randomint = new Random();
-    private boolean isUpdating;
-    private FurnaceTile tile;
 
-    public BlockFurnace(boolean Active) {
+    public BlockFurnace() {
         super(Material.rock);
         this.setCreativeTab(CreativeTabCommon.COMMON_TAB);
         this.setBlockName("furnace");
@@ -59,63 +56,16 @@ public class BlockFurnace extends BlockContainer {
     @Override
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitX, float hitY, float hitZ)
     {
-        if (!world.isRemote)
-        {
-            player.openGui(PlayingAround.instance, Constants.NIRITE_FURNACE_GUI, world, x, y, z);
-        }
-
         return true;
     }
 
     @Override
     public void breakBlock(World world, int x, int y, int z, Block block, int meta)
     {
-        FurnaceTile tile = ((FurnaceTile) world.getTileEntity(x, y, z));
-        tile.invalidate();
+        world.removeTileEntity(x, y, z);
         super.breakBlock(world, x, y, z, block, meta);
     }
 
-    public void updateFurnaceBlockState(boolean isActive, World world, int x, int y, int z)
-    {
-        int meta = world.getBlockMetadata(x, y, z);
-        TileEntity tile = world.getTileEntity(x, y, z);
-        isUpdating = true;
-        world.setBlock(x,y,z,ModBlocks.furnace);
-        isUpdating = false;
-        world.setBlockMetadataWithNotify(x, y, z, meta, 2);
-
-        if (tile != null)
-        {
-            tile.validate();
-            world.setTileEntity(x, y, z, tile);
-        }
-    }
-
-    @Override
-    public void onBlockPlacedBy(World world, int x, int y, int z, EntityLivingBase entLiving, ItemStack stack)
-    {
-        switch (MathHelper.floor_double((double) (entLiving.rotationYaw * 4.0F / 360.0F) + 0.5D) & 3)
-        {
-            case 0: world.setBlockMetadataWithNotify(x, y, z, 2, 2); break;
-            case 1: world.setBlockMetadataWithNotify(x, y, z, 5, 2); break;
-            case 2: world.setBlockMetadataWithNotify(x, y, z, 3, 2); break;
-            case 3: world.setBlockMetadataWithNotify(x, y, z, 4, 2); break;
-            default: world.setBlockMetadataWithNotify(x, y, z, 2, 2);
-        }
-
-        TileEntity tile = world.getTileEntity(x, y, z);
-
-        if (stack.hasTagCompound() && stack.stackTagCompound.getBoolean("PABlock"))
-        {
-            stack.stackTagCompound.setInteger("x", x);
-            stack.stackTagCompound.setInteger("y", y);
-            stack.stackTagCompound.setInteger("z", z);
-            stack.stackTagCompound.setShort("BurnTime", (short) 0);
-            stack.stackTagCompound.setShort("CookTime", (short) 0);
-
-            tile.readFromNBT(stack.stackTagCompound);
-        }
-    }
 
     /*@SideOnly(Side.CLIENT)
     public void randomDisplayTick(World world, int x, int y, int z, Random rand)
